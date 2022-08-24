@@ -1,9 +1,62 @@
 # KhanomTan-TTS-v1.0
-KhnomTan TTS (ขนมตาล) is a open-source Thai text-to-speech model.
+KhnomTan TTS (ขนมตาล) is a open-source Thai text-to-speech model that supports multilingual speakers. It supports Thai, English, and others.
+
+KhnomTan TTS is a YourTTS model that trained with supports Thai. We add the Thai speech corpus from TSync 1* and TSync 2* to [mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS](https://huggingface.co/datasets/mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS) that train the model with YourTTS model by [the 🐸 Coqui-TTS](https://github.com/coqui-ai/TTS).
+
+*Note: Those are not complete corpus. We can access the public corpus only.
+
+### Language
+- th-th: Thai
+- en: English
+- fr-fr: French language
+- pt-br: Portuguese
+- x-de: Danish
+- x-lb: Luxembourgish
+
+### Speaker and Language
+
+- en
+    - female
+	    - Linda
+    - male
+	    - p259
+	    - p274
+	    - p286
+- fr-fr
+    - female
+	    - Bunny
+	    - Judith
+    - male
+	    - Bernard
+- pt-br
+    - male
+	    - Ed
+- th-th
+    - female
+	    - Tsyncone
+	    - Tsynctwo
+- x-de
+    - female
+	    - Judith
+	    - Kerstin
+    - male
+	    - Thorsten
+- x-lb
+    - female
+	    - Caroline
+	    - Judith
+	    - Nathalie
+	    - Sara
+    - male
+	    - Charel
+	    - Guy
+	    - Jemp
+	    - Luc
+	    - Marco
 
 ## Model Cards
 - Developer: Wannaphong Phatthiyaphaibun
-- Model date: 2022-08-19
+- Model date: 2022-08-24
 - Model version: 1.0
 - Dataset: [mbarnig/lb-de-fr-en-pt-th-12200-TTS-CORPUS](https://huggingface.co/datasets/mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS), [TSync 1, and TSync 2](https://huggingface.co/datasets/wannaphong/tsync1-2-yourtts).
 - License: Apache License, Version 2
