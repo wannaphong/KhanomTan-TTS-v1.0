@@ -9,6 +9,15 @@ KhanomTan TTS is a YourTTS model that trained with supports Thai. We add the Tha
 
 **Model** [https://huggingface.co/wannaphong/khanomtan-tts-v1.0](https://huggingface.co/wannaphong/khanomtan-tts-v1.0)
 
+### Config
+We have Thai characters to the graphemes config for training the model and use the Speaker Encoder model from the speaker encoder model from [🐸 Coqui-TTS](https://github.com/coqui-ai/TTS/releases/tag/speaker_encoder_model).
+
+### Dataset
+We add Tsync 1 corpus and Tsync 2 corpus, which are not complete datasets, and then add those to [mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS](https://huggingface.co/datasets/mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS) dataset.
+
+### Trained the model
+We use the 🐸 Coqui-TTS multilingual VITS-model recipe (version 0.7.1 or the commit id is d46fbc240ccf21797d42ac26cb27eb0b9f8d31c4) for training the model, and we use the speaker encoder model from [🐸 Coqui-TTS](https://github.com/coqui-ai/TTS/releases/tag/speaker_encoder_model) then we release the best model to public access.
+
 ### Language
 - th-th: Thai
 - en: English
