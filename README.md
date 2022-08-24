@@ -104,7 +104,7 @@ few files sound from Tsync 1 corpus, Tsync 2 corpus and [mbarnig/lb-de-fr-en-pt-
 
 ### Quantitative Analyses
 
-You can see more at [https://huggingface.co/pythainlp/khanomtan-tts-v1.0/tensorboard](https://huggingface.co/pythainlp/khanomtan-tts-v1.0/tensorboard).
+You can see more at [https://huggingface.co/wannaphong/khanomtan-tts-v1.0/tensorboard](https://huggingface.co/wannaphong/khanomtan-tts-v1.0/tensorboard).
 
 **Best Model**
 
