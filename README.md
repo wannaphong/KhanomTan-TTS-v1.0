@@ -1,9 +1,11 @@
 # KhanomTan-TTS-v1.0
-KhnomTan TTS (ขนมตาล) is a open-source Thai text-to-speech model that supports multilingual speakers. It supports Thai, English, and others.
+KhnomTan TTS (ขนมตาล) is an open-source Thai text-to-speech model that supports multilingual speakers. It supports Thai, English, and others.
 
 KhnomTan TTS is a YourTTS model that trained with supports Thai. We add the Thai speech corpus from TSync 1* and TSync 2* to [mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS](https://huggingface.co/datasets/mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS) that train the model with YourTTS model by [the 🐸 Coqui-TTS](https://github.com/coqui-ai/TTS).
 
 *Note: Those are not complete corpus. We can access the public corpus only.
+
+**Demo** [https://wannaphong.github.io/KhanomTan-TTS-v1.0/](https://wannaphong.github.io/KhanomTan-TTS-v1.0/)
 
 ### Language
 - th-th: Thai
