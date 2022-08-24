@@ -202,6 +202,7 @@ You can read about YourTTS from
 ### Caveats and Recommendations
 - Text without special characters, code-switching, digital numbers, and more. (monolingual text only)
 - You need to choose language when you use this model.
+- YourTTS: Towards Zero-Shot Multi-Speaker TTS and Zero-Shot Voice Conversion for everyone https://github.com/Edresson/YourTTS
 - Try to use phonemes instead of using graphemes.
 Read more about 🐸TTS at https://github.com/coqui-ai/TTS
 - How to collect your dataset for text-to-speech: https://tts.readthedocs.io/en/latest/what_makes_a_good_dataset.html
