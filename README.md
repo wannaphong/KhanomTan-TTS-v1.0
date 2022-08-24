@@ -7,6 +7,8 @@ KhanomTan TTS is a YourTTS model that trained with supports Thai. We add the Tha
 
 **Demo** [https://wannaphong.github.io/KhanomTan-TTS-v1.0/](https://wannaphong.github.io/KhanomTan-TTS-v1.0/)
 
+**Model** [https://huggingface.co/wannaphong/khanomtan-tts-v1.0](https://huggingface.co/wannaphong/khanomtan-tts-v1.0)
+
 ### Language
 - th-th: Thai
 - en: English
