@@ -72,7 +72,8 @@ We use the 🐸 Coqui-TTS multilingual VITS-model recipe (version 0.7.1 or the c
 - Model date: 2022-08-24
 - Model version: 1.0
 - Dataset: [mbarnig/lb-de-fr-en-pt-th-12200-TTS-CORPUS](https://huggingface.co/datasets/mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS), [TSync 1, and TSync 2](https://huggingface.co/datasets/wannaphong/tsync1-2-yourtts).
-- License: Apache License, Version 2
+- Code License: Apache License, Version 2
+- Model License: CC-BY-NC-SA 3.0
 
 ### Intended Use
 - Intended to be used for applications that need to use text-to-speech.
