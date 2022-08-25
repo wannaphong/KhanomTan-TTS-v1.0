@@ -1,19 +1,19 @@
 # KhanomTan-TTS-v1.0
-KhanomTan TTS (ขนมตาล) is an open-source Thai text-to-speech model that supports multilingual speakers. It supports Thai, English, and others.
+KhanomTan TTS (ขนมตาล) is an open-source Thai text-to-speech model that supports multilingual speakers such as Thai, English, and others.
 
-KhanomTan TTS is a YourTTS model that trained with supports Thai. We add the Thai speech corpus from TSync 1* and TSync 2* to [mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS](https://huggingface.co/datasets/mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS) that train the model with YourTTS model by [the 🐸 Coqui-TTS](https://github.com/coqui-ai/TTS).
+KhanomTan TTS is a YourTTS model trained on multilingual languages that supports Thai. We use Thai speech corpora, TSync 1* and TSync 2* [mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS](https://huggingface.co/datasets/mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS) to train the YourTTS model by using code from [the 🐸 Coqui-TTS](https://github.com/coqui-ai/TTS).
 
-*Note: Those are not complete corpus. We can access the public corpus only.
+*Note: Those are not complete corpora. We can access the public corpus only which is smaller.
 
 **Demo** [https://wannaphong.github.io/KhanomTan-TTS-v1.0/](https://wannaphong.github.io/KhanomTan-TTS-v1.0/)
 
 **Model** [https://huggingface.co/wannaphong/khanomtan-tts-v1.0](https://huggingface.co/wannaphong/khanomtan-tts-v1.0)
 
 ### Config
-We have Thai characters to the graphemes config for training the model and use the Speaker Encoder model from the speaker encoder model from [🐸 Coqui-TTS](https://github.com/coqui-ai/TTS/releases/tag/speaker_encoder_model).
+We use Thai characters to the graphemes config to training the model and use the Speaker Encoder model from [🐸 Coqui-TTS](https://github.com/coqui-ai/TTS/releases/tag/speaker_encoder_model).
 
 ### Dataset
-We add Tsync 1 corpus and Tsync 2 corpus, which are not complete datasets, and then add those to [mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS](https://huggingface.co/datasets/mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS) dataset.
+We use Tsync 1 and Tsync 2 corpora, which are not complete datasets, and then add these to [mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS](https://huggingface.co/datasets/mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS) dataset.
 
 ### Trained the model
 We use the 🐸 Coqui-TTS multilingual VITS-model recipe (version 0.7.1 or the commit id is d46fbc240ccf21797d42ac26cb27eb0b9f8d31c4) for training the model, and we use the speaker encoder model from [🐸 Coqui-TTS](https://github.com/coqui-ai/TTS/releases/tag/speaker_encoder_model) then we release the best model to public access.
@@ -100,11 +100,11 @@ We use the 🐸 Coqui-TTS multilingual VITS-model recipe (version 0.7.1 or the c
 We use [mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS](https://huggingface.co/datasets/mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS) corpus and merge with Tsync 1 corpus  and Tsync 2 corpus (Not complete data because We can use the public dataset only, and they don't release complete corpus)
 
 ### Evaluation Data
-few files sound from Tsync 1 corpus, Tsync 2 corpus and [mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS](https://huggingface.co/datasets/mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS).
+Fiew files sound from Tsync 1 and Tsync 2 corpora and [mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS](https://huggingface.co/datasets/mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS).
 
 ### Quantitative Analyses
 
-You can see more at [https://huggingface.co/wannaphong/khanomtan-tts-v1.0/tensorboard](https://huggingface.co/wannaphong/khanomtan-tts-v1.0/tensorboard).
+See more at [https://huggingface.co/wannaphong/khanomtan-tts-v1.0/tensorboard](https://huggingface.co/wannaphong/khanomtan-tts-v1.0/tensorboard).
 
 **Best Model**
 
@@ -203,9 +203,9 @@ You can see more at [https://huggingface.co/wannaphong/khanomtan-tts-v1.0/tensor
 ```
 
 ### Ethical Considerations
-This model can be used in multilingual to speak by another language speaker and maybe use voice clones, but the YourTTS model cannot synthesize voice like natural speakers. It can't synthesize voice at 44100 Hz. It depends on your ethics, so we don't recommend using this model in the wrong way. The lousy synthesis may be from the corpus or others because we can use the public dataset only and graphemes for training the model. If you need the best synthesis, we suggest you collect your dataset with a large dataset (very much and very high quality) and train a new model with text-to-models (Tacotron, VITS, and more).
+This model can be used in multilingual language to speak with another language speaker or use voice clones, but the YourTTS model cannot synthesize voice like natural speakers. It can't synthesize voice at 44100 Hz. It depends on your ethics, so we don't recommend using this model in the wrong way. The lousy synthesis may be from the corpus or others because we can use the public dataset and graphemes for training the model. If you need the best synthesis, we suggest you collect your dataset with a large dataset (very much and very high quality) and train a new model with text-to-speech models, i.e., Tacotron or VITS.
 
-You can read about YourTTS from
+Read about YourTTS:
 [https://github.com/coqui-ai/TTS/discussions/1759](https://github.com/coqui-ai/TTS/discussions/1759).
 
 ### Caveats and Recommendations
