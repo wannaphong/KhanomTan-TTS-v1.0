@@ -1,4 +1,4 @@
-# KhanomTan-TTS-v1.0
+# KhanomTan TTS v1.0
 KhanomTan TTS (ขนมตาล) is an open-source Thai text-to-speech model that supports multilingual speakers such as Thai, English, and others.
 
 KhanomTan TTS is a YourTTS model trained on multilingual languages that supports Thai. We use Thai speech corpora, TSync 1* and TSync 2* [mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS](https://huggingface.co/datasets/mbarnig/lb-de-fr-en-pt-12800-TTS-CORPUS) to train the YourTTS model by using code from [the 🐸 Coqui-TTS](https://github.com/coqui-ai/TTS).
